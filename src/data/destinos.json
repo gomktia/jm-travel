@@ -1,0 +1,639 @@
+{
+  "destinos": [
+    {
+      "id": "maldivas",
+      "continente": "Asia",
+      "pais": "Maldivas",
+      "cidade": "Malé Atoll",
+      "lat": 4.1755,
+      "lon": 73.5093,
+      "titulo": {
+        "pt": "Maldivas - Paraíso sobre as Águas",
+        "en": "Maldives - Paradise over the Waters",
+        "es": "Maldivas - Paraíso sobre las Aguas"
+      },
+      "descricao": {
+        "pt": "Viva a experiência de bangalôs sobre águas cristalinas, mergulhos em recifes de coral e jantares privativos na areia.",
+        "en": "Experience overwater bungalows on crystal-clear waters, coral reef dives, and private dinners on the sand.",
+        "es": "Vive la experiencia de bungalows sobre aguas cristalinas, buceo en arrecifes de coral y cenas privadas en la arena."
+      },
+      "duracao": "8 dias / 7 noites",
+      "categoria": ["Luxo", "Aventura"],
+      "preco": 18500,
+      "moeda": "USD",
+      "imagem": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=800&q=80",
+      "galeria": [
+        "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=800&q=80",
+        "https://images.unsplash.com/photo-1540202404-a2f29016b523?w=800&q=80",
+        "https://images.unsplash.com/photo-1590523278191-995cbcda646b?w=800&q=80"
+      ],
+      "roteiros": [
+        {
+          "dia": 1,
+          "titulo": { "pt": "Chegada ao Paraíso", "en": "Arrival in Paradise", "es": "Llegada al Paraíso" },
+          "descricao": { "pt": "Transfer de hidroavião e check-in no resort.", "en": "Seaplane transfer and resort check-in.", "es": "Transfer en hidroavión y check-in en el resort." }
+        },
+        {
+          "dia": 2,
+          "titulo": { "pt": "Mergulho nos Recifes", "en": "Reef Diving", "es": "Buceo en los Arrecifes" },
+          "descricao": { "pt": "Snorkeling nos recifes de coral com guia privativo.", "en": "Snorkeling at coral reefs with a private guide.", "es": "Snorkel en arrecifes de coral con guía privado." }
+        },
+        {
+          "dia": 3,
+          "titulo": { "pt": "Spa & Relaxamento", "en": "Spa & Relaxation", "es": "Spa & Relajación" },
+          "descricao": { "pt": "Dia dedicado ao spa overwater e tratamentos exclusivos.", "en": "Day dedicated to overwater spa and exclusive treatments.", "es": "Día dedicado al spa overwater y tratamientos exclusivos." }
+        }
+      ],
+      "restaurantes": [
+        { "nome": "Ithaa Undersea Restaurant", "tipo": "Fine Dining", "descricao": { "pt": "Restaurante submarino com vista 180° dos recifes.", "en": "Underwater restaurant with 180° reef views.", "es": "Restaurante submarino con vista 180° de los arrecifes." } },
+        { "nome": "Sunset Grill", "tipo": "Seafood", "descricao": { "pt": "Frutos do mar frescos com vista para o pôr do sol.", "en": "Fresh seafood with sunset views.", "es": "Mariscos frescos con vista a la puesta de sol." } }
+      ],
+      "pontosTuristicos": [
+        { "nome": "Banana Reef", "descricao": { "pt": "Um dos pontos de mergulho mais famosos do mundo.", "en": "One of the world's most famous dive spots.", "es": "Uno de los puntos de buceo más famosos del mundo." } },
+        { "nome": "Vaadhoo Island", "descricao": { "pt": "Praia bioluminescente que brilha à noite.", "en": "Bioluminescent beach that glows at night.", "es": "Playa bioluminiscente que brilla por la noche." } }
+      ],
+      "guiaLocal": {
+        "pt": "A melhor época para visitar é de novembro a abril. A moeda local é a Rufiyaa, mas dólares são aceitos em toda parte.",
+        "en": "Best time to visit is November to April. Local currency is the Rufiyaa, but dollars are accepted everywhere.",
+        "es": "La mejor época para visitar es de noviembre a abril. La moneda local es la Rufiyaa, pero los dólares se aceptan en todas partes."
+      }
+    },
+    {
+      "id": "paris",
+      "continente": "Europa",
+      "pais": "França",
+      "cidade": "Paris",
+      "lat": 48.8566,
+      "lon": 2.3522,
+      "titulo": {
+        "pt": "Paris - A Cidade Luz",
+        "en": "Paris - The City of Light",
+        "es": "París - La Ciudad Luz"
+      },
+      "descricao": {
+        "pt": "Descubra a elegância parisiense com tours privativos, gastronomia estrelada e o charme dos bulevares ao entardecer.",
+        "en": "Discover Parisian elegance with private tours, Michelin-starred dining, and the charm of boulevards at dusk.",
+        "es": "Descubre la elegancia parisina con tours privados, gastronomía con estrellas Michelin y el encanto de los bulevares al atardecer."
+      },
+      "duracao": "7 dias / 6 noites",
+      "categoria": ["Luxo", "Gastronomia"],
+      "preco": 12800,
+      "moeda": "EUR",
+      "imagem": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80",
+      "galeria": [
+        "https://images.unsplash.com/photo-1549144511-f099e773c147?w=800&q=80",
+        "https://images.unsplash.com/photo-1509439581779-6298f75bf6e5?w=800&q=80",
+        "https://images.unsplash.com/photo-1471623320832-752e8bbf8413?w=800&q=80"
+      ],
+      "roteiros": [
+        {
+          "dia": 1,
+          "titulo": { "pt": "Chegada e Champs-Élysées", "en": "Arrival & Champs-Élysées", "es": "Llegada y Champs-Élysées" },
+          "descricao": { "pt": "Check-in no hotel boutique e passeio pelos Champs-Élysées.", "en": "Boutique hotel check-in and Champs-Élysées stroll.", "es": "Check-in en hotel boutique y paseo por Champs-Élysées." }
+        },
+        {
+          "dia": 2,
+          "titulo": { "pt": "Louvre & Gastronomia", "en": "Louvre & Gastronomy", "es": "Louvre y Gastronomía" },
+          "descricao": { "pt": "Tour privativo no Louvre e almoço em restaurante estrelado.", "en": "Private Louvre tour and lunch at a starred restaurant.", "es": "Tour privado en el Louvre y almuerzo en restaurante con estrella." }
+        }
+      ],
+      "restaurantes": [
+        { "nome": "Le Jules Verne", "tipo": "Fine Dining", "descricao": { "pt": "Restaurante na Torre Eiffel com vista panorâmica.", "en": "Restaurant in the Eiffel Tower with panoramic views.", "es": "Restaurante en la Torre Eiffel con vista panorámica." } },
+        { "nome": "Le Comptoir du Panthéon", "tipo": "Bistrô", "descricao": { "pt": "Bistrô tradicional no coração do Quartier Latin.", "en": "Traditional bistro in the heart of the Latin Quarter.", "es": "Bistró tradicional en el corazón del Barrio Latino." } }
+      ],
+      "pontosTuristicos": [
+        { "nome": "Torre Eiffel", "descricao": { "pt": "Acesso VIP ao topo com champagne ao pôr do sol.", "en": "VIP access to the top with sunset champagne.", "es": "Acceso VIP a la cima con champagne al atardecer." } },
+        { "nome": "Palácio de Versalhes", "descricao": { "pt": "Tour privativo pelos jardins e salões reais.", "en": "Private tour through royal gardens and halls.", "es": "Tour privado por los jardines y salones reales." } }
+      ],
+      "guiaLocal": {
+        "pt": "Paris é encantadora o ano todo. Primavera e outono oferecem clima ameno e menos turistas.",
+        "en": "Paris is charming year-round. Spring and autumn offer mild weather and fewer tourists.",
+        "es": "París es encantadora todo el año. Primavera y otoño ofrecen clima templado y menos turistas."
+      }
+    },
+    {
+      "id": "tokyo",
+      "continente": "Asia",
+      "pais": "Japão",
+      "cidade": "Tokyo",
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "titulo": {
+        "pt": "Tokyo - Tradição e Modernidade",
+        "en": "Tokyo - Tradition & Modernity",
+        "es": "Tokio - Tradición y Modernidad"
+      },
+      "descricao": {
+        "pt": "Uma fusão perfeita entre templos ancestrais e a tecnologia do futuro, com a gastronomia mais refinada do planeta.",
+        "en": "A perfect fusion of ancient temples and future technology, with the planet's most refined cuisine.",
+        "es": "Una fusión perfecta entre templos ancestrales y la tecnología del futuro, con la gastronomía más refinada del planeta."
+      },
+      "duracao": "10 dias / 9 noites",
+      "categoria": ["Luxo", "Gastronomia", "Aventura"],
+      "preco": 15200,
+      "moeda": "USD",
+      "imagem": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80",
+      "galeria": [
+        "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&q=80",
+        "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=80",
+        "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&q=80"
+      ],
+      "roteiros": [
+        {
+          "dia": 1,
+          "titulo": { "pt": "Chegada e Shibuya", "en": "Arrival & Shibuya", "es": "Llegada y Shibuya" },
+          "descricao": { "pt": "Check-in e imersão no bairro mais vibrante de Tokyo.", "en": "Check-in and immersion in Tokyo's most vibrant district.", "es": "Check-in e inmersión en el barrio más vibrante de Tokio." }
+        },
+        {
+          "dia": 2,
+          "titulo": { "pt": "Templos de Asakusa", "en": "Asakusa Temples", "es": "Templos de Asakusa" },
+          "descricao": { "pt": "Visita ao Sensoji e cerimônia do chá privativa.", "en": "Visit to Sensoji and private tea ceremony.", "es": "Visita al Sensoji y ceremonia del té privada." }
+        }
+      ],
+      "restaurantes": [
+        { "nome": "Sukiyabashi Jiro", "tipo": "Sushi", "descricao": { "pt": "O sushi bar mais famoso do mundo, 3 estrelas Michelin.", "en": "The world's most famous sushi bar, 3 Michelin stars.", "es": "El sushi bar más famoso del mundo, 3 estrellas Michelin." } },
+        { "nome": "Narisawa", "tipo": "Innovative", "descricao": { "pt": "Gastronomia japonesa de vanguarda com ingredientes sazonais.", "en": "Avant-garde Japanese cuisine with seasonal ingredients.", "es": "Gastronomía japonesa de vanguardia con ingredientes estacionales." } }
+      ],
+      "pontosTuristicos": [
+        { "nome": "Monte Fuji", "descricao": { "pt": "Excursão de dia inteiro com guia privativo e almoço kaiseki.", "en": "Full-day excursion with private guide and kaiseki lunch.", "es": "Excursión de día completo con guía privado y almuerzo kaiseki." } },
+        { "nome": "Bairro de Akihabara", "descricao": { "pt": "O epicentro da cultura pop e tecnologia japonesa.", "en": "The epicenter of pop culture and Japanese technology.", "es": "El epicentro de la cultura pop y la tecnología japonesa." } }
+      ],
+      "guiaLocal": {
+        "pt": "Primavera (março-abril) para cerejeiras em flor. Outono (outubro-novembro) para folhagens douradas.",
+        "en": "Spring (March-April) for cherry blossoms. Autumn (October-November) for golden foliage.",
+        "es": "Primavera (marzo-abril) para cerezos en flor. Otoño (octubre-noviembre) para follaje dorado."
+      }
+    },
+    {
+      "id": "fernando-de-noronha",
+      "continente": "América do Sul",
+      "pais": "Brasil",
+      "cidade": "Fernando de Noronha",
+      "lat": -3.8540,
+      "lon": -32.4280,
+      "titulo": {
+        "pt": "Fernando de Noronha - Jóia do Atlântico",
+        "en": "Fernando de Noronha - Atlantic Jewel",
+        "es": "Fernando de Noronha - Joya del Atlántico"
+      },
+      "descricao": {
+        "pt": "O arquipélago mais exclusivo do Brasil: praias intocadas, mergulho com golfinhos e pôr do sol no Forte dos Remédios.",
+        "en": "Brazil's most exclusive archipelago: untouched beaches, dolphin dives, and sunsets at Forte dos Remédios.",
+        "es": "El archipiélago más exclusivo de Brasil: playas vírgenes, buceo con delfines y atardecer en el Forte dos Remédios."
+      },
+      "duracao": "6 dias / 5 noites",
+      "categoria": ["Luxo", "Aventura"],
+      "preco": 9800,
+      "moeda": "BRL",
+      "imagem": "https://images.unsplash.com/photo-1643063239391-19c518f0d4f7?w=800&q=80",
+      "galeria": [
+        "https://images.unsplash.com/photo-1614722860207-909e0e8dfd99?w=800&q=80",
+        "https://images.unsplash.com/photo-1583078576658-80cfe202ec6a?w=800&q=80",
+        "https://images.unsplash.com/photo-1576548205372-6ccb6f1b3673?w=800&q=80"
+      ],
+      "roteiros": [
+        {
+          "dia": 1,
+          "titulo": { "pt": "Chegada à Ilha", "en": "Island Arrival", "es": "Llegada a la Isla" },
+          "descricao": { "pt": "Transfer e check-in na pousada boutique com vista para o Morro Dois Irmãos.", "en": "Transfer and boutique inn check-in overlooking Morro Dois Irmãos.", "es": "Transfer y check-in en posada boutique con vista al Morro Dois Irmãos." }
+        },
+        {
+          "dia": 2,
+          "titulo": { "pt": "Baía dos Golfinhos", "en": "Dolphin Bay", "es": "Bahía de los Delfines" },
+          "descricao": { "pt": "Trilha ao mirante e snorkeling na Praia do Sancho.", "en": "Trail to the viewpoint and snorkeling at Praia do Sancho.", "es": "Sendero al mirador y snorkel en Praia do Sancho." }
+        }
+      ],
+      "restaurantes": [
+        { "nome": "Mergulhão", "tipo": "Seafood", "descricao": { "pt": "Frutos do mar no Porto de Santo Antônio com vista para o mar.", "en": "Seafood at Porto de Santo Antônio with sea views.", "es": "Mariscos en Porto de Santo Antônio con vista al mar." } },
+        { "nome": "Varanda", "tipo": "Contemporânea", "descricao": { "pt": "Cozinha autoral com ingredientes locais da ilha.", "en": "Signature cuisine with local island ingredients.", "es": "Cocina de autor con ingredientes locales de la isla." } }
+      ],
+      "pontosTuristicos": [
+        { "nome": "Praia do Sancho", "descricao": { "pt": "Eleita repetidamente a praia mais bonita do mundo.", "en": "Repeatedly voted the world's most beautiful beach.", "es": "Elegida repetidamente la playa más bonita del mundo." } },
+        { "nome": "Baía dos Porcos", "descricao": { "pt": "Piscinas naturais com água cristalina entre formações rochosas.", "en": "Natural pools with crystal water among rock formations.", "es": "Piscinas naturales con agua cristalina entre formaciones rocosas." } }
+      ],
+      "guiaLocal": {
+        "pt": "Taxa de preservação ambiental é obrigatória. Agosto a dezembro tem melhor visibilidade para mergulho.",
+        "en": "Environmental preservation fee is mandatory. August to December has best diving visibility.",
+        "es": "La tasa de preservación ambiental es obligatoria. De agosto a diciembre hay mejor visibilidad para buceo."
+      }
+    },
+    {
+      "id": "gramado",
+      "continente": "América do Sul",
+      "pais": "Brasil",
+      "cidade": "Gramado",
+      "lat": -29.3773,
+      "lon": -50.8765,
+      "titulo": {
+        "pt": "Gramado - Charme Europeu no Brasil",
+        "en": "Gramado - European Charm in Brazil",
+        "es": "Gramado - Encanto Europeo en Brasil"
+      },
+      "descricao": {
+        "pt": "A encantadora serra gaúcha com seus chocolates artesanais, vinícolas premium e arquitetura de conto de fadas.",
+        "en": "The enchanting Serra Gaúcha with artisan chocolates, premium wineries, and fairy-tale architecture.",
+        "es": "La encantadora Sierra Gaúcha con sus chocolates artesanales, bodegas premium y arquitectura de cuento de hadas."
+      },
+      "duracao": "5 dias / 4 noites",
+      "categoria": ["Luxo", "Gastronomia"],
+      "preco": 5400,
+      "moeda": "BRL",
+      "imagem": "https://images.unsplash.com/photo-1551529488-bcfe644f1692?w=800&q=80",
+      "galeria": [
+        "https://images.unsplash.com/photo-1668717341915-f7a5b667d80f?w=800&q=80",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&q=80",
+        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80"
+      ],
+      "roteiros": [
+        {
+          "dia": 1,
+          "titulo": { "pt": "Chegada e Rua Coberta", "en": "Arrival & Rua Coberta", "es": "Llegada y Rua Coberta" },
+          "descricao": { "pt": "Check-in no hotel e passeio pela famosa Rua Coberta com fondue.", "en": "Hotel check-in and famous Rua Coberta stroll with fondue.", "es": "Check-in en el hotel y paseo por la famosa Rua Coberta con fondue." }
+        },
+        {
+          "dia": 2,
+          "titulo": { "pt": "Rota do Vinho", "en": "Wine Route", "es": "Ruta del Vino" },
+          "descricao": { "pt": "Tour privativo pelas melhores vinícolas do Vale dos Vinhedos.", "en": "Private tour through the best wineries of Vale dos Vinhedos.", "es": "Tour privado por las mejores bodegas del Vale dos Vinhedos." }
+        }
+      ],
+      "restaurantes": [
+        { "nome": "Belle du Valais", "tipo": "Fondue", "descricao": { "pt": "O melhor fondue da serra gaúcha em ambiente acolhedor.", "en": "The best fondue in Serra Gaúcha in a cozy setting.", "es": "El mejor fondue de la Sierra Gaúcha en un ambiente acogedor." } },
+        { "nome": "Josephina Café", "tipo": "Café Colonial", "descricao": { "pt": "Café colonial com dezenas de opções artesanais.", "en": "Colonial-style café with dozens of artisan options.", "es": "Café colonial con decenas de opciones artesanales." } }
+      ],
+      "pontosTuristicos": [
+        { "nome": "Mini Mundo", "descricao": { "pt": "Parque temático com réplicas em miniatura de construções famosas.", "en": "Theme park with miniature replicas of famous buildings.", "es": "Parque temático con réplicas en miniatura de construcciones famosas." } },
+        { "nome": "Lago Negro", "descricao": { "pt": "Lago cercado por hortênsias e araucárias, perfeito para pedalinho.", "en": "Lake surrounded by hydrangeas and araucarias, perfect for paddleboats.", "es": "Lago rodeado de hortensias y araucarias, perfecto para botes a pedal." } }
+      ],
+      "guiaLocal": {
+        "pt": "Inverno (junho-agosto) é a alta temporada com o famoso Natal Luz. Reservas antecipadas são essenciais.",
+        "en": "Winter (June-August) is peak season with the famous Natal Luz. Early bookings are essential.",
+        "es": "Invierno (junio-agosto) es temporada alta con el famoso Natal Luz. Las reservas anticipadas son esenciales."
+      }
+    },
+    {
+      "id": "cancun",
+      "continente": "América do Norte",
+      "pais": "México",
+      "cidade": "Cancún",
+      "lat": 21.1619,
+      "lon": -86.8515,
+      "titulo": {
+        "pt": "Cancún - Caribe Mexicano",
+        "en": "Cancún - Mexican Caribbean",
+        "es": "Cancún - Caribe Mexicano"
+      },
+      "descricao": {
+        "pt": "Águas turquesa, ruínas maias e resorts all-inclusive de classe mundial no coração do Caribe mexicano.",
+        "en": "Turquoise waters, Mayan ruins, and world-class all-inclusive resorts in the heart of the Mexican Caribbean.",
+        "es": "Aguas turquesas, ruinas mayas y resorts all-inclusive de clase mundial en el corazón del Caribe mexicano."
+      },
+      "duracao": "7 dias / 6 noites",
+      "categoria": ["Luxo", "Aventura"],
+      "preco": 8500,
+      "moeda": "USD",
+      "imagem": "https://images.unsplash.com/photo-1510097467424-192d713fd8b2?w=800&q=80",
+      "galeria": [
+        "https://images.unsplash.com/photo-1552074284-5e88ef1aef18?w=800&q=80",
+        "https://images.unsplash.com/photo-1504019347908-b45f9b0b8dd5?w=800&q=80",
+        "https://images.unsplash.com/photo-1535913989690-f90e1c2d4cfa?w=800&q=80"
+      ],
+      "roteiros": [
+        {
+          "dia": 1,
+          "titulo": { "pt": "Chegada ao Resort", "en": "Resort Arrival", "es": "Llegada al Resort" },
+          "descricao": { "pt": "Transfer VIP e check-in em resort à beira-mar.", "en": "VIP transfer and beachfront resort check-in.", "es": "Transfer VIP y check-in en resort frente al mar." }
+        },
+        {
+          "dia": 2,
+          "titulo": { "pt": "Chichén Itzá", "en": "Chichén Itzá", "es": "Chichén Itzá" },
+          "descricao": { "pt": "Excursão privativa à maravilha do mundo maia.", "en": "Private excursion to the Mayan wonder of the world.", "es": "Excursión privada a la maravilla del mundo maya." }
+        }
+      ],
+      "restaurantes": [
+        { "nome": "Cochinita & Co", "tipo": "Mexican Gourmet", "descricao": { "pt": "Cozinha mexicana elevada com vista para a laguna.", "en": "Elevated Mexican cuisine with lagoon views.", "es": "Cocina mexicana elevada con vista a la laguna." } },
+        { "nome": "Harry's Prime", "tipo": "Steakhouse", "descricao": { "pt": "Steakhouse premium na zona hoteleira.", "en": "Premium steakhouse in the hotel zone.", "es": "Steakhouse premium en la zona hotelera." } }
+      ],
+      "pontosTuristicos": [
+        { "nome": "Isla Mujeres", "descricao": { "pt": "Ilha paradisíaca acessível de catamarã.", "en": "Paradise island accessible by catamaran.", "es": "Isla paradisíaca accesible en catamarán." } },
+        { "nome": "Cenotes", "descricao": { "pt": "Piscinas naturais sagradas dos maias para mergulho.", "en": "Sacred Mayan natural pools for diving.", "es": "Piscinas naturales sagradas de los mayas para buceo." } }
+      ],
+      "guiaLocal": {
+        "pt": "Dezembro a abril é a melhor época. Peso mexicano e dólar são aceitos. Cuidado com a temporada de furacões (junho-novembro).",
+        "en": "December to April is the best time. Mexican peso and dollar are accepted. Beware of hurricane season (June-November).",
+        "es": "De diciembre a abril es la mejor época. Peso mexicano y dólar son aceptados. Cuidado con la temporada de huracanes (junio-noviembre)."
+      }
+    },
+    {
+      "id": "tulum",
+      "continente": "América do Norte",
+      "pais": "México",
+      "cidade": "Tulum",
+      "lat": 20.2114,
+      "lon": -87.4654,
+      "titulo": {
+        "pt": "Tulum - Boho Luxo no Caribe",
+        "en": "Tulum - Boho Luxury in the Caribbean",
+        "es": "Tulum - Lujo Bohemio en el Caribe"
+      },
+      "descricao": {
+        "pt": "Onde o luxo encontra a natureza: ruínas à beira-mar, cenotes sagrados e eco-resorts exclusivos.",
+        "en": "Where luxury meets nature: seaside ruins, sacred cenotes, and exclusive eco-resorts.",
+        "es": "Donde el lujo encuentra la naturaleza: ruinas frente al mar, cenotes sagrados y eco-resorts exclusivos."
+      },
+      "duracao": "6 dias / 5 noites",
+      "categoria": ["Luxo", "Aventura", "Gastronomia"],
+      "preco": 7200,
+      "moeda": "USD",
+      "imagem": "https://images.unsplash.com/photo-1581710862235-eb6e05d8783f?w=800&q=80",
+      "galeria": [
+        "https://images.unsplash.com/photo-1513178062314-949b0c622fed?w=800&q=80",
+        "https://images.unsplash.com/photo-1622870129889-f7e0ba2603a1?w=800&q=80",
+        "https://images.unsplash.com/photo-1617246405400-462cb1ab98ab?w=800&q=80"
+      ],
+      "roteiros": [
+        {
+          "dia": 1,
+          "titulo": { "pt": "Chegada ao Eco-Resort", "en": "Eco-Resort Arrival", "es": "Llegada al Eco-Resort" },
+          "descricao": { "pt": "Transfer e check-in em eco-resort boutique na selva.", "en": "Transfer and boutique eco-resort check-in in the jungle.", "es": "Transfer y check-in en eco-resort boutique en la selva." }
+        }
+      ],
+      "restaurantes": [
+        { "nome": "Hartwood", "tipo": "Farm-to-table", "descricao": { "pt": "Cozinha a lenha com ingredientes orgânicos locais.", "en": "Wood-fired cooking with local organic ingredients.", "es": "Cocina a leña con ingredientes orgánicos locales." } }
+      ],
+      "pontosTuristicos": [
+        { "nome": "Ruínas de Tulum", "descricao": { "pt": "Sítio arqueológico maia com vista espetacular para o Caribe.", "en": "Mayan archaeological site with spectacular Caribbean views.", "es": "Sitio arqueológico maya con vista espectacular al Caribe." } },
+        { "nome": "Gran Cenote", "descricao": { "pt": "Um dos cenotes mais impressionantes da região para snorkeling.", "en": "One of the region's most impressive cenotes for snorkeling.", "es": "Uno de los cenotes más impresionantes de la región para snorkel." } }
+      ],
+      "guiaLocal": {
+        "pt": "Tulum é mais rústico e boho que Cancún. Leve repelente e protetor solar biodegradável para os cenotes.",
+        "en": "Tulum is more rustic and boho than Cancún. Bring repellent and biodegradable sunscreen for cenotes.",
+        "es": "Tulum es más rústico y bohemio que Cancún. Lleva repelente y protector solar biodegradable para los cenotes."
+      }
+    },
+    {
+      "id": "maceio",
+      "continente": "América do Sul",
+      "pais": "Brasil",
+      "cidade": "Maceió",
+      "lat": -9.6658,
+      "lon": -35.7353,
+      "titulo": {
+        "pt": "Maceió - Caribe Brasileiro",
+        "en": "Maceió - Brazilian Caribbean",
+        "es": "Maceió - Caribe Brasileño"
+      },
+      "descricao": {
+        "pt": "As praias mais cristalinas do Brasil: piscinas naturais de Maragogi, falésias coloridas e o paraíso caribenho de Alagoas.",
+        "en": "Brazil's most crystalline beaches: Maragogi's natural pools, colorful cliffs, and the Caribbean paradise of Alagoas.",
+        "es": "Las playas más cristalinas de Brasil: piscinas naturales de Maragogi, acantilados coloridos y el paraíso caribeño de Alagoas."
+      },
+      "duracao": "6 dias / 5 noites",
+      "categoria": ["Luxo", "Aventura"],
+      "preco": 6200,
+      "moeda": "BRL",
+      "imagem": "/maceio.webp",
+      "galeria": [
+        "https://images.unsplash.com/photo-1685319540041-545628d35bd6?w=800&q=80",
+        "https://images.unsplash.com/photo-1649934126054-7687cdcef7d1?w=800&q=80",
+        "https://images.unsplash.com/photo-1509233725247-49e657c54213?w=800&q=80"
+      ],
+      "roteiros": [
+        {
+          "dia": 1,
+          "titulo": { "pt": "Chegada e Praia do Francês", "en": "Arrival & Praia do Francês", "es": "Llegada y Praia do Francês" },
+          "descricao": { "pt": "Transfer e check-in no resort, tarde livre na Praia do Francês.", "en": "Transfer and resort check-in, free afternoon at Praia do Francês.", "es": "Transfer y check-in en el resort, tarde libre en Praia do Francês." }
+        },
+        {
+          "dia": 2,
+          "titulo": { "pt": "Maragogi e Piscinas Naturais", "en": "Maragogi & Natural Pools", "es": "Maragogi y Piscinas Naturales" },
+          "descricao": { "pt": "Passeio de jangada até as piscinas naturais de Maragogi.", "en": "Raft trip to Maragogi's natural pools.", "es": "Paseo en balsa hasta las piscinas naturales de Maragogi." }
+        }
+      ],
+      "restaurantes": [
+        { "nome": "Wanchako", "tipo": "Seafood", "descricao": { "pt": "Frutos do mar frescos com influência peruana à beira-mar.", "en": "Fresh seafood with Peruvian influence by the sea.", "es": "Mariscos frescos con influencia peruana junto al mar." } },
+        { "nome": "Massarella", "tipo": "Italian", "descricao": { "pt": "Culinária italiana refinada com ingredientes locais.", "en": "Refined Italian cuisine with local ingredients.", "es": "Cocina italiana refinada con ingredientes locales." } }
+      ],
+      "pontosTuristicos": [
+        { "nome": "Piscinas Naturais de Maragogi", "descricao": { "pt": "Recifes de coral com águas cristalinas perfeitas para snorkeling.", "en": "Coral reefs with crystal-clear waters perfect for snorkeling.", "es": "Arrecifes de coral con aguas cristalinas perfectas para snorkel." } },
+        { "nome": "Praia do Gunga", "descricao": { "pt": "Praia paradisíaca entre o mar e a lagoa, acessível de barco.", "en": "Paradise beach between sea and lagoon, accessible by boat.", "es": "Playa paradisíaca entre el mar y la laguna, accesible en barco." } }
+      ],
+      "guiaLocal": {
+        "pt": "Melhor época setembro a março. Passeios de jangada são imperdíveis.",
+        "en": "Best time September to March. Raft tours are a must.",
+        "es": "Mejor época de septiembre a marzo. Los paseos en balsa son imperdibles."
+      }
+    },
+    {
+      "id": "recife",
+      "continente": "América do Sul",
+      "pais": "Brasil",
+      "cidade": "Recife",
+      "lat": -8.0476,
+      "lon": -34.8770,
+      "titulo": {
+        "pt": "Recife - Veneza Brasileira",
+        "en": "Recife - Brazilian Venice",
+        "es": "Recife - Venecia Brasileña"
+      },
+      "descricao": {
+        "pt": "A Veneza brasileira: Recife Antigo, Porto de Galinhas e uma das cenas gastronômicas mais vibrantes do Nordeste.",
+        "en": "The Brazilian Venice: Recife Antigo, Porto de Galinhas, and one of the Northeast's most vibrant gastronomic scenes.",
+        "es": "La Venecia brasileña: Recife Antigo, Porto de Galinhas y una de las escenas gastronómicas más vibrantes del Nordeste."
+      },
+      "duracao": "6 dias / 5 noites",
+      "categoria": ["Luxo", "Gastronomia"],
+      "preco": 5800,
+      "moeda": "BRL",
+      "imagem": "/recife.jpg",
+      "galeria": [
+        "https://images.unsplash.com/photo-1653937905306-6fe27b199660?w=800&q=80",
+        "https://images.unsplash.com/photo-1468413253725-0d5181091126?w=800&q=80",
+        "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?w=800&q=80"
+      ],
+      "roteiros": [
+        {
+          "dia": 1,
+          "titulo": { "pt": "Recife Antigo e Marco Zero", "en": "Recife Antigo & Marco Zero", "es": "Recife Antigo y Marco Zero" },
+          "descricao": { "pt": "Check-in e passeio pelo centro histórico e Marco Zero.", "en": "Check-in and tour of the historic center and Marco Zero.", "es": "Check-in y paseo por el centro histórico y Marco Zero." }
+        },
+        {
+          "dia": 2,
+          "titulo": { "pt": "Porto de Galinhas", "en": "Porto de Galinhas", "es": "Porto de Galinhas" },
+          "descricao": { "pt": "Dia inteiro em Porto de Galinhas com passeio de jangada às piscinas naturais.", "en": "Full day at Porto de Galinhas with raft trip to natural pools.", "es": "Día completo en Porto de Galinhas con paseo en balsa a las piscinas naturales." }
+        }
+      ],
+      "restaurantes": [
+        { "nome": "Leite", "tipo": "Fine Dining", "descricao": { "pt": "O restaurante mais antigo do Brasil, com gastronomia refinada desde 1882.", "en": "Brazil's oldest restaurant, with refined gastronomy since 1882.", "es": "El restaurante más antiguo de Brasil, con gastronomía refinada desde 1882." } },
+        { "nome": "Ponte Nova", "tipo": "Regional", "descricao": { "pt": "Culinária regional pernambucana autêntica e saborosa.", "en": "Authentic and flavorful regional Pernambuco cuisine.", "es": "Cocina regional pernambucana auténtica y sabrosa." } }
+      ],
+      "pontosTuristicos": [
+        { "nome": "Praia de Porto de Galinhas", "descricao": { "pt": "Piscinas naturais formadas entre os recifes de coral.", "en": "Natural pools formed among the coral reefs.", "es": "Piscinas naturales formadas entre los arrecifes de coral." } },
+        { "nome": "Instituto Ricardo Brennand", "descricao": { "pt": "Museu com a maior coleção de armaduras e armas brancas da América Latina.", "en": "Museum with the largest collection of armor and bladed weapons in Latin America.", "es": "Museo con la mayor colección de armaduras y armas blancas de América Latina." } }
+      ],
+      "guiaLocal": {
+        "pt": "Clima tropical o ano todo. Porto de Galinhas fica a 60km e é imperdível.",
+        "en": "Tropical climate year-round. Porto de Galinhas is 60km away and a must-visit.",
+        "es": "Clima tropical todo el año. Porto de Galinhas está a 60km y es imperdible."
+      }
+    },
+    {
+      "id": "florianopolis",
+      "continente": "América do Sul",
+      "pais": "Brasil",
+      "cidade": "Florianópolis",
+      "lat": -27.5954,
+      "lon": -48.5480,
+      "titulo": {
+        "pt": "Florianópolis - Ilha da Magia",
+        "en": "Florianópolis - Magic Island",
+        "es": "Florianópolis - Isla de la Magia"
+      },
+      "descricao": {
+        "pt": "A Ilha da Magia com 42 praias paradisíacas, trilhas deslumbrantes, gastronomia de frutos do mar e vida noturna sofisticada.",
+        "en": "The Magic Island with 42 paradise beaches, stunning trails, seafood gastronomy, and sophisticated nightlife.",
+        "es": "La Isla de la Magia con 42 playas paradisíacas, senderos deslumbrantes, gastronomía de mariscos y vida nocturna sofisticada."
+      },
+      "duracao": "7 dias / 6 noites",
+      "categoria": ["Luxo", "Aventura"],
+      "preco": 7400,
+      "moeda": "BRL",
+      "imagem": "https://images.unsplash.com/photo-1588001832198-c15cff59b078?w=800&q=80",
+      "galeria": [
+        "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=800&q=80",
+        "https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?w=800&q=80",
+        "https://images.unsplash.com/photo-1506953823645-5e33333e8b42?w=800&q=80"
+      ],
+      "roteiros": [
+        {
+          "dia": 1,
+          "titulo": { "pt": "Praias do Norte - Jurerê e Daniela", "en": "Northern Beaches - Jurerê & Daniela", "es": "Playas del Norte - Jurerê y Daniela" },
+          "descricao": { "pt": "Check-in e dia nas praias mais sofisticadas da ilha.", "en": "Check-in and day at the island's most sophisticated beaches.", "es": "Check-in y día en las playas más sofisticadas de la isla." }
+        },
+        {
+          "dia": 2,
+          "titulo": { "pt": "Trilha da Lagoinha do Leste", "en": "Lagoinha do Leste Trail", "es": "Sendero de Lagoinha do Leste" },
+          "descricao": { "pt": "Trilha deslumbrante até uma das praias mais preservadas da ilha.", "en": "Stunning trail to one of the island's most preserved beaches.", "es": "Sendero deslumbrante hasta una de las playas más preservadas de la isla." }
+        }
+      ],
+      "restaurantes": [
+        { "nome": "Ostradamus", "tipo": "Oyster Bar", "descricao": { "pt": "Ostras frescas cultivadas localmente com vista para o mar.", "en": "Locally farmed fresh oysters with sea views.", "es": "Ostras frescas cultivadas localmente con vista al mar." } },
+        { "nome": "Marisqueira", "tipo": "Seafood", "descricao": { "pt": "Frutos do mar tradicionais açorianos em ambiente rústico.", "en": "Traditional Azorean seafood in a rustic setting.", "es": "Mariscos tradicionales azorianos en ambiente rústico." } }
+      ],
+      "pontosTuristicos": [
+        { "nome": "Praia da Joaquina", "descricao": { "pt": "Famosa praia de surf com dunas impressionantes.", "en": "Famous surf beach with impressive dunes.", "es": "Famosa playa de surf con dunas impresionantes." } },
+        { "nome": "Lagoa da Conceição", "descricao": { "pt": "Lagoa rodeada de restaurantes, bares e esportes aquáticos.", "en": "Lagoon surrounded by restaurants, bars, and water sports.", "es": "Laguna rodeada de restaurantes, bares y deportes acuáticos." } }
+      ],
+      "guiaLocal": {
+        "pt": "Verão (dezembro-março) é alta temporada. Alugue um carro para explorar as praias.",
+        "en": "Summer (December-March) is peak season. Rent a car to explore the beaches.",
+        "es": "Verano (diciembre-marzo) es temporada alta. Alquila un coche para explorar las playas."
+      }
+    },
+    {
+      "id": "jericoacoara",
+      "continente": "América do Sul",
+      "pais": "Brasil",
+      "cidade": "Jericoacoara",
+      "lat": -2.7947,
+      "lon": -40.5117,
+      "titulo": {
+        "pt": "Jericoacoara - Vila dos Sonhos",
+        "en": "Jericoacoara - Village of Dreams",
+        "es": "Jericoacoara - Villa de los Sueños"
+      },
+      "descricao": {
+        "pt": "O vilarejo mais charmoso do Brasil: dunas douradas, lagoas de água doce, kitesurf e pôr do sol na Duna do Pôr do Sol.",
+        "en": "Brazil's most charming village: golden dunes, freshwater lagoons, kitesurfing, and sunset at Sunset Dune.",
+        "es": "El pueblo más encantador de Brasil: dunas doradas, lagunas de agua dulce, kitesurf y atardecer en la Duna del Atardecer."
+      },
+      "duracao": "7 dias / 6 noites",
+      "categoria": ["Luxo", "Aventura"],
+      "preco": 8600,
+      "moeda": "BRL",
+      "imagem": "https://images.unsplash.com/photo-1641517827875-2bb2f73339d4?w=800&q=80",
+      "galeria": [
+        "https://images.unsplash.com/photo-1637158530567-0a49323ce9d6?w=800&q=80",
+        "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&q=80",
+        "https://images.unsplash.com/photo-1500534314263-0cee91e1e18f?w=800&q=80"
+      ],
+      "roteiros": [
+        {
+          "dia": 1,
+          "titulo": { "pt": "Chegada e Duna do Pôr do Sol", "en": "Arrival & Sunset Dune", "es": "Llegada y Duna del Atardecer" },
+          "descricao": { "pt": "Transfer 4x4 e check-in na pousada, pôr do sol na duna.", "en": "4x4 transfer and inn check-in, sunset at the dune.", "es": "Transfer 4x4 y check-in en la posada, atardecer en la duna." }
+        },
+        {
+          "dia": 2,
+          "titulo": { "pt": "Lagoa do Paraíso e Lagoa Azul", "en": "Paradise Lagoon & Blue Lagoon", "es": "Laguna del Paraíso y Laguna Azul" },
+          "descricao": { "pt": "Passeio de buggy pelas lagoas de água doce cristalina.", "en": "Buggy tour through crystalline freshwater lagoons.", "es": "Paseo en buggy por las lagunas de agua dulce cristalina." }
+        }
+      ],
+      "restaurantes": [
+        { "nome": "Tamarindo", "tipo": "Contemporary", "descricao": { "pt": "Gastronomia contemporânea com ingredientes do sertão cearense.", "en": "Contemporary gastronomy with Ceará sertão ingredients.", "es": "Gastronomía contemporánea con ingredientes del sertão cearense." } },
+        { "nome": "Carcará", "tipo": "Seafood", "descricao": { "pt": "Frutos do mar frescos com os pés na areia.", "en": "Fresh seafood with your feet in the sand.", "es": "Mariscos frescos con los pies en la arena." } }
+      ],
+      "pontosTuristicos": [
+        { "nome": "Pedra Furada", "descricao": { "pt": "Formação rochosa icônica esculpida pelo vento e pelo mar.", "en": "Iconic rock formation sculpted by wind and sea.", "es": "Formación rocosa icónica esculpida por el viento y el mar." } },
+        { "nome": "Lagoa do Paraíso", "descricao": { "pt": "Lagoa de água doce com redes dentro d'água e bares flutuantes.", "en": "Freshwater lagoon with in-water hammocks and floating bars.", "es": "Laguna de agua dulce con hamacas dentro del agua y bares flotantes." } }
+      ],
+      "guiaLocal": {
+        "pt": "Julho a dezembro tem mais vento para kitesurf. Acesso por Jijoca de Jericoacoara.",
+        "en": "July to December has more wind for kitesurfing. Access via Jijoca de Jericoacoara.",
+        "es": "De julio a diciembre hay más viento para kitesurf. Acceso por Jijoca de Jericoacoara."
+      }
+    },
+    {
+      "id": "salvador",
+      "continente": "América do Sul",
+      "pais": "Brasil",
+      "cidade": "Salvador",
+      "lat": -12.9714,
+      "lon": -38.5124,
+      "titulo": {
+        "pt": "Salvador - Capital da Alegria",
+        "en": "Salvador - Capital of Joy",
+        "es": "Salvador - Capital de la Alegría"
+      },
+      "descricao": {
+        "pt": "Capital da alegria: Pelourinho patrimônio UNESCO, gastronomia baiana incomparável, praias urbanas e a energia do axé.",
+        "en": "Capital of joy: UNESCO heritage Pelourinho, unmatched Bahian gastronomy, urban beaches, and the energy of axé.",
+        "es": "Capital de la alegría: Pelourinho patrimonio UNESCO, gastronomía bahiana inigualable, playas urbanas y la energía del axé."
+      },
+      "duracao": "7 dias / 6 noites",
+      "categoria": ["Luxo", "Gastronomia"],
+      "preco": 6800,
+      "moeda": "BRL",
+      "imagem": "https://images.unsplash.com/photo-1641236485997-026d633a9e43?w=800&q=80",
+      "galeria": [
+        "https://images.unsplash.com/photo-1589711769108-5aaf6de20ca6?w=800&q=80",
+        "https://images.unsplash.com/photo-1655150109105-963138d400b5?w=800&q=80",
+        "https://images.unsplash.com/photo-1756680967556-26861e2c836b?w=800&q=80"
+      ],
+      "roteiros": [
+        {
+          "dia": 1,
+          "titulo": { "pt": "Pelourinho e Centro Histórico", "en": "Pelourinho & Historic Center", "es": "Pelourinho y Centro Histórico" },
+          "descricao": { "pt": "Check-in e passeio pelo Pelourinho, patrimônio mundial UNESCO.", "en": "Check-in and tour of Pelourinho, UNESCO World Heritage site.", "es": "Check-in y paseo por Pelourinho, patrimonio mundial UNESCO." }
+        },
+        {
+          "dia": 2,
+          "titulo": { "pt": "Praia do Forte e Projeto Tamar", "en": "Praia do Forte & Projeto Tamar", "es": "Praia do Forte y Proyecto Tamar" },
+          "descricao": { "pt": "Excursão à Praia do Forte e visita ao Projeto Tamar de preservação de tartarugas.", "en": "Excursion to Praia do Forte and visit to the Tamar sea turtle preservation project.", "es": "Excursión a Praia do Forte y visita al Proyecto Tamar de preservación de tortugas." }
+        }
+      ],
+      "restaurantes": [
+        { "nome": "Casa de Tereza", "tipo": "Bahian Fine Dining", "descricao": { "pt": "Gastronomia baiana refinada com vista panorâmica da Baía de Todos os Santos.", "en": "Refined Bahian gastronomy with panoramic views of the Bay of All Saints.", "es": "Gastronomía bahiana refinada con vista panorámica de la Bahía de Todos los Santos." } },
+        { "nome": "Paraíso Tropical", "tipo": "Seafood", "descricao": { "pt": "Moquecas e acarajés tradicionais à beira-mar.", "en": "Traditional moquecas and acarajés by the sea.", "es": "Moquecas y acarajés tradicionales junto al mar." } }
+      ],
+      "pontosTuristicos": [
+        { "nome": "Elevador Lacerda e Pelourinho", "descricao": { "pt": "O elevador histórico conectando Cidade Alta e Baixa com vista da baía.", "en": "The historic elevator connecting Upper and Lower City with bay views.", "es": "El elevador histórico conectando Ciudad Alta y Baja con vista de la bahía." } },
+        { "nome": "Praia do Forte", "descricao": { "pt": "Vila charmosa com praias de águas mornas e piscinas naturais.", "en": "Charming village with warm-water beaches and natural pools.", "es": "Villa encantadora con playas de aguas cálidas y piscinas naturales." } }
+      ],
+      "guiaLocal": {
+        "pt": "Dezembro a março é alta temporada. Prove o acarajé e o vatapá tradicionais.",
+        "en": "December to March is peak season. Try the traditional acarajé and vatapá.",
+        "es": "De diciembre a marzo es temporada alta. Prueba el acarajé y el vatapá tradicionales."
+      }
+    }
+  ]
+}
