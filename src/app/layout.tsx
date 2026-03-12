@@ -34,6 +34,9 @@ export const metadata: Metadata = {
     "Tokyo",
     "Maldivas",
   ],
+  icons: {
+    icon: "/favicon.svg",
+  },
   openGraph: {
     title: "JM Travel Experience | Viagens de Luxo Sob Medida",
     description:
@@ -42,6 +45,21 @@ export const metadata: Metadata = {
     locale: "pt_BR",
     alternateLocale: ["en_US", "es_ES"],
     siteName: "JM Travel Experience",
+    images: [
+      {
+        url: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&h=630&fit=crop&q=80",
+        width: 1200,
+        height: 630,
+        alt: "JM Travel Experience - Viagens de Luxo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "JM Travel Experience | Viagens de Luxo Sob Medida",
+    description:
+      "Viva o Mundo dos Seus Sonhos. Viagens completas e sob medida para destinos extraordinários.",
+    images: ["https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&h=630&fit=crop&q=80"],
   },
 };
 
