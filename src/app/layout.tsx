@@ -21,6 +21,7 @@ export const metadata: Metadata = {
   title: "JM Travel Experience | Viagens de Luxo Sob Medida",
   description:
     "Agência de turismo de luxo especializada em viagens sob medida para destinos extraordinários. Pacotes exclusivos pelo México, Brasil, Espanha e mais.",
+  metadataBase: new URL("https://jm-travel.vercel.app"),
   keywords: [
     "viagens de luxo",
     "turismo premium",
@@ -47,7 +48,7 @@ export const metadata: Metadata = {
     siteName: "JM Travel Experience",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&h=630&fit=crop&q=80",
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "JM Travel Experience - Viagens de Luxo",
@@ -59,7 +60,7 @@ export const metadata: Metadata = {
     title: "JM Travel Experience | Viagens de Luxo Sob Medida",
     description:
       "Viva o Mundo dos Seus Sonhos. Viagens completas e sob medida para destinos extraordinários.",
-    images: ["https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&h=630&fit=crop&q=80"],
+    images: ["/og-image.jpg"],
   },
 };
 
