@@ -41,7 +41,7 @@ export default function WikipediaInfo({ city }: { city: string }) {
 
   if (loading) {
     return (
-      <div className="bg-white rounded-xl p-6 border border-navy/5 animate-pulse">
+      <div className="bg-offwhite rounded-xl p-6 border border-navy/8 animate-pulse">
         <div className="h-4 bg-navy/10 rounded w-32 mb-4" />
         <div className="space-y-2">
           <div className="h-3 bg-navy/10 rounded w-full" />
@@ -63,11 +63,11 @@ export default function WikipediaInfo({ city }: { city: string }) {
     <motion.div
       initial={{ opacity: 0, y: 12 }}
       animate={{ opacity: 1, y: 0 }}
-      className="bg-white rounded-xl overflow-hidden border border-navy/5"
+      className="bg-offwhite rounded-xl overflow-hidden border border-navy/8 hover:shadow-md transition-shadow duration-300"
     >
       <div className="flex flex-col sm:flex-row">
         {wiki.image && (
-          <div className="relative w-full sm:w-48 h-40 sm:h-auto shrink-0">
+          <div className="relative w-full sm:w-48 h-36 sm:h-auto shrink-0">
             <Image
               src={wiki.image}
               alt={wiki.title}
@@ -80,10 +80,10 @@ export default function WikipediaInfo({ city }: { city: string }) {
             />
           </div>
         )}
-        <div className="p-5 sm:p-6 flex-1">
-          <div className="flex items-center gap-2 mb-3">
-            <BookOpen className="w-4 h-4 text-gold" />
-            <h4 className="font-serif text-lg font-bold text-navy">{l.about} {wiki.title}</h4>
+        <div className="p-4 sm:p-6 flex-1">
+          <div className="flex items-center gap-2 mb-2 sm:mb-3">
+            <BookOpen className="w-4 h-4 text-gold shrink-0" />
+            <h4 className="font-serif text-base sm:text-lg font-bold text-navy line-clamp-1">{l.about} {wiki.title}</h4>
           </div>
           <p className="text-sm text-navy/60 leading-relaxed mb-4">{shortExtract}</p>
           {wiki.url && (

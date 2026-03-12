@@ -59,18 +59,18 @@ export default function FlightEstimates({ city }: { city: string }) {
           initial={{ opacity: 0, x: -12 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: i * 0.1 }}
-          className="bg-white rounded-xl p-5 border border-navy/5 hover:shadow-md transition-shadow"
+          className="bg-offwhite rounded-xl p-5 border border-navy/8 hover:shadow-md hover:border-gold/20 transition-all duration-300"
         >
-          <div className="flex items-center justify-between">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500/10 to-sky-500/10 flex items-center justify-center">
+              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500/10 to-sky-500/10 flex items-center justify-center shrink-0">
                 <Plane className="w-5 h-5 text-blue-500" />
               </div>
-              <div>
-                <div className="flex items-center gap-2 text-sm text-navy/70">
-                  <span className="font-medium">{originNames[flight.from] || flight.from}</span>
-                  <ArrowRight className="w-3 h-3 text-navy/30" />
-                  <span className="font-medium">{city}</span>
+              <div className="min-w-0">
+                <div className="flex items-center gap-1.5 sm:gap-2 text-sm text-navy/70">
+                  <span className="font-medium truncate">{originNames[flight.from] || flight.from}</span>
+                  <ArrowRight className="w-3 h-3 text-navy/30 shrink-0" />
+                  <span className="font-medium truncate">{city}</span>
                 </div>
                 <div className="flex items-center gap-3 mt-1 text-xs text-navy/40">
                   <span>{flight.airline}</span>
@@ -81,7 +81,7 @@ export default function FlightEstimates({ city }: { city: string }) {
                 </div>
               </div>
             </div>
-            <div className="text-right">
+            <div className="text-left sm:text-right pl-[52px] sm:pl-0">
               <p className="text-xs text-navy/40">{l.from}</p>
               <p className="text-xl font-bold text-navy">
                 R$ {flight.price.toLocaleString()}

@@ -69,12 +69,12 @@ export default function HotelCards({ city }: { city: string }) {
   if (!hotels.length) return null;
 
   return (
-    <div className="py-16">
-      <h3 className="font-serif text-2xl sm:text-3xl text-navy font-bold mb-8 text-center">
+    <div className="py-4 sm:py-8">
+      <h3 className="font-serif text-xl sm:text-2xl md:text-3xl text-navy font-bold mb-6 sm:mb-8 text-center">
         {l.title}
       </h3>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
         {hotels.map((hotel, i) => (
           <motion.div
             key={hotel.id}
@@ -82,10 +82,10 @@ export default function HotelCards({ city }: { city: string }) {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: i * 0.1 }}
-            className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-500 group"
+            className="bg-offwhite rounded-2xl overflow-hidden border border-navy/8 shadow-sm hover:shadow-lg hover:border-gold/20 transition-all duration-500 group"
           >
             {/* Foto do hotel via Google Places com blur placeholder */}
-            <div className="relative h-48 overflow-hidden bg-navy/5">
+            <div className="relative h-40 sm:h-48 overflow-hidden bg-navy/5">
               {hotel.photo ? (
                 <Image
                   src={hotel.photo}
@@ -104,8 +104,8 @@ export default function HotelCards({ city }: { city: string }) {
               )}
             </div>
 
-            <div className="p-5">
-              <h4 className="font-serif text-lg font-bold text-navy mb-2 line-clamp-1">
+            <div className="p-4 sm:p-5">
+              <h4 className="font-serif text-base sm:text-lg font-bold text-navy mb-2 line-clamp-1">
                 {hotel.name}
               </h4>
               <StarRating rating={hotel.rating} />

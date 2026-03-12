@@ -89,11 +89,11 @@ export default function DestinationDetail({
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: 40 }}
         transition={{ type: "spring", damping: 25 }}
-        className="max-w-5xl mx-auto my-8 bg-white rounded-2xl overflow-hidden shadow-2xl"
+        className="max-w-5xl mx-auto my-0 sm:my-8 bg-white sm:rounded-2xl overflow-hidden shadow-2xl min-h-screen sm:min-h-0"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header com imagem hero */}
-        <div className="relative h-80 sm:h-[28rem]">
+        <div className="relative h-56 sm:h-80 md:h-[28rem]">
           <Image
             src={destino.imagem}
             alt={destino.titulo[locale]}
@@ -118,18 +118,18 @@ export default function DestinationDetail({
             </div>
           )}
 
-          <div className="absolute bottom-6 left-6 right-6">
-            <h2 className="font-serif text-3xl sm:text-4xl text-offwhite font-bold mb-2">
+          <div className="absolute bottom-4 left-4 right-4 sm:bottom-6 sm:left-6 sm:right-6">
+            <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl text-offwhite font-bold mb-1 sm:mb-2">
               {destino.titulo[locale]}
             </h2>
-            <p className="text-offwhite/80 text-sm max-w-2xl">{destino.descricao[locale]}</p>
+            <p className="text-offwhite/80 text-xs sm:text-sm max-w-2xl line-clamp-2 sm:line-clamp-none">{destino.descricao[locale]}</p>
           </div>
         </div>
 
         {/* Country Info + Weather Widget side by side */}
-        <div className="px-6 sm:px-10 pt-8">
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-            <div className="sm:col-span-2">
+        <div className="px-4 sm:px-6 md:px-10 pt-6 sm:pt-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div className="md:col-span-2">
               <CountryInfo country={destino.pais} />
             </div>
             {destino.lat && destino.lon && (
@@ -139,15 +139,15 @@ export default function DestinationDetail({
         </div>
 
         {/* Wikipedia info */}
-        <div className="px-6 sm:px-10 pt-6">
+        <div className="px-4 sm:px-6 md:px-10 pt-4 sm:pt-6">
           <WikipediaInfo city={destino.cidade} />
         </div>
 
         {/* Galeria de fotos */}
-        <div className="px-6 sm:px-10 pt-6">
-          <div className="grid grid-cols-3 gap-3">
+        <div className="px-4 sm:px-6 md:px-10 pt-4 sm:pt-6">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-3">
             {destino.galeria.slice(0, 3).map((img, i) => (
-              <div key={i} className="relative h-36 sm:h-52 rounded-2xl overflow-hidden">
+              <div key={i} className={`relative h-32 sm:h-52 rounded-xl sm:rounded-2xl overflow-hidden ${i === 2 ? "col-span-2 sm:col-span-1" : ""}`}>
                 <Image
                   src={img}
                   alt={`${destino.titulo[locale]} ${i + 1}`}
@@ -163,13 +163,13 @@ export default function DestinationDetail({
         </div>
 
         {/* Tabs de conteúdo */}
-        <div className="px-6 sm:px-10 pt-8">
-          <div className="flex gap-1.5 overflow-x-auto pb-2 border-b border-navy/10 scrollbar-hide">
+        <div className="px-4 sm:px-6 md:px-10 pt-6 sm:pt-8">
+          <div className="flex gap-1 sm:gap-1.5 overflow-x-auto pb-2 border-b border-navy/10 scrollbar-hide">
             {tabItems.map((tab) => (
               <button
                 key={tab.key}
                 onClick={() => setActiveTab(tab.key)}
-                className={`flex items-center gap-1.5 px-3 py-2 rounded-t-lg text-xs sm:text-sm font-medium whitespace-nowrap transition-colors ${
+                className={`flex items-center gap-1 sm:gap-1.5 px-2.5 sm:px-3 py-2 rounded-t-lg text-[11px] sm:text-sm font-medium whitespace-nowrap transition-colors ${
                   activeTab === tab.key
                     ? "bg-navy text-gold"
                     : "text-navy/50 hover:text-navy hover:bg-navy/5"
@@ -183,7 +183,7 @@ export default function DestinationDetail({
         </div>
 
         {/* Tab content */}
-        <div className="px-6 sm:px-10 py-8">
+        <div className="px-4 sm:px-6 md:px-10 py-6 sm:py-8">
           <AnimatePresence mode="wait">
             {activeTab === "itinerary" && (
               <motion.div
@@ -194,13 +194,13 @@ export default function DestinationDetail({
                 className="space-y-4"
               >
                 {destino.roteiros.map((r) => (
-                  <div key={r.dia} className="flex gap-4 items-start">
-                    <div className="w-12 h-12 rounded-full bg-navy flex items-center justify-center text-gold font-serif font-bold text-lg shrink-0">
+                  <div key={r.dia} className="flex gap-3 sm:gap-4 items-start bg-offwhite rounded-xl p-3 sm:p-4 border border-navy/8 hover:shadow-md hover:border-gold/20 transition-all duration-300">
+                    <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-navy flex items-center justify-center text-gold font-serif font-bold text-base sm:text-lg shrink-0">
                       {r.dia}
                     </div>
                     <div>
-                      <h4 className="font-serif text-lg font-bold text-navy">{r.titulo[locale]}</h4>
-                      <p className="text-navy/60 text-sm">{r.descricao[locale]}</p>
+                      <h4 className="font-serif text-base sm:text-lg font-bold text-navy">{r.titulo[locale]}</h4>
+                      <p className="text-navy/60 text-xs sm:text-sm">{r.descricao[locale]}</p>
                     </div>
                   </div>
                 ))}
@@ -217,7 +217,7 @@ export default function DestinationDetail({
                 {/* Restaurantes do JSON */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
                   {destino.restaurantes.map((r) => (
-                    <div key={r.nome} className="bg-white rounded-xl p-5 border border-navy/5">
+                    <div key={r.nome} className="bg-offwhite rounded-xl p-4 sm:p-5 border border-navy/8 hover:shadow-md hover:border-gold/20 transition-all duration-300">
                       <div className="flex items-center justify-between mb-2">
                         <h4 className="font-serif text-lg font-bold text-navy">{r.nome}</h4>
                         <span className="px-2 py-0.5 bg-gold/10 text-gold text-xs rounded-full">{r.tipo}</span>
@@ -240,7 +240,7 @@ export default function DestinationDetail({
               >
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
                   {destino.pontosTuristicos.map((p) => (
-                    <div key={p.nome} className="bg-white rounded-xl p-5 border border-navy/5">
+                    <div key={p.nome} className="bg-offwhite rounded-xl p-4 sm:p-5 border border-navy/8 hover:shadow-md hover:border-gold/20 transition-all duration-300">
                       <h4 className="font-serif text-lg font-bold text-navy mb-1">{p.nome}</h4>
                       <p className="text-navy/60 text-sm">{p.descricao[locale]}</p>
                     </div>
@@ -289,7 +289,7 @@ export default function DestinationDetail({
                 initial={{ opacity: 0, x: -10 }}
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: 10 }}
-                className="bg-white rounded-xl p-6 border border-navy/5"
+                className="bg-offwhite rounded-xl p-6 border border-navy/8"
               >
                 <p className="text-navy/70 leading-relaxed">{destino.guiaLocal[locale]}</p>
               </motion.div>

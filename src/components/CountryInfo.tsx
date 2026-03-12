@@ -106,10 +106,10 @@ export default function CountryInfo({ country }: { country: string }) {
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      className="bg-white rounded-2xl border border-navy/5 p-5 sm:p-6"
+      className="bg-offwhite rounded-2xl border border-navy/8 p-4 sm:p-5 md:p-6"
     >
       {/* Cabeçalho com bandeira */}
-      <div className="flex items-center gap-3 mb-5">
+      <div className="flex items-center gap-3 mb-3 sm:mb-5">
         <div className="relative w-10 h-7 rounded-sm overflow-hidden shadow-sm border border-navy/10">
           <Image
             src={data.flag}
@@ -127,18 +127,18 @@ export default function CountryInfo({ country }: { country: string }) {
       </div>
 
       {/* Info pills - layout horizontal que wrapa */}
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap gap-1.5 sm:gap-2">
         {infoItems.map((item) => (
           <div
             key={item.label}
-            className="flex items-center gap-2 px-3 py-2 rounded-xl bg-offwhite border border-navy/[0.03]"
+            className="flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3 py-1.5 sm:py-2 rounded-lg sm:rounded-xl bg-white border border-navy/[0.06]"
           >
-            <item.icon className="w-4 h-4 text-gold shrink-0" />
-            <div className="flex items-baseline gap-1.5">
-              <span className="text-[10px] uppercase tracking-wider text-navy/35 whitespace-nowrap">
+            <item.icon className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-gold shrink-0" />
+            <div className="flex items-baseline gap-1 sm:gap-1.5">
+              <span className="text-[9px] sm:text-[10px] uppercase tracking-wider text-navy/35 whitespace-nowrap">
                 {item.label}
               </span>
-              <span className="text-sm font-semibold text-navy whitespace-nowrap">
+              <span className="text-xs sm:text-sm font-semibold text-navy whitespace-nowrap">
                 {item.value}
               </span>
             </div>

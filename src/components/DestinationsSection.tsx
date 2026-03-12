@@ -87,7 +87,7 @@ export default function DestinationsSection() {
                 className="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl hover:border-b-2 hover:border-gold transition-shadow duration-500 cursor-pointer"
                 onClick={() => setSelectedDestino(destino)}
               >
-                <div className="relative h-72 overflow-hidden">
+                <div className="relative h-56 sm:h-72 overflow-hidden">
                   <Image
                     src={destino.imagem}
                     alt={destino.titulo[locale]}

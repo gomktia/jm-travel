@@ -62,13 +62,13 @@ export default function AttractionsGrid({ city }: { city: string }) {
   if (!attractions.length) return null;
 
   return (
-    <div className="py-16">
-      <h3 className="font-serif text-2xl sm:text-3xl text-navy font-bold mb-8 text-center">
+    <div className="py-4 sm:py-8">
+      <h3 className="font-serif text-xl sm:text-2xl md:text-3xl text-navy font-bold mb-6 sm:mb-8 text-center">
         <Landmark className="w-7 h-7 inline mr-2 text-gold" />
         {l.title}
       </h3>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-5">
         {attractions.map((attr, i) => (
           <motion.div
             key={attr.id}
@@ -76,10 +76,10 @@ export default function AttractionsGrid({ city }: { city: string }) {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: i * 0.08 }}
-            className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-400 group"
+            className="bg-offwhite rounded-xl overflow-hidden border border-navy/8 shadow-sm hover:shadow-md hover:border-gold/20 transition-all duration-300 group"
           >
             {/* Imagem da atração via OpenTripMap ou fallback elegante */}
-            <div className="relative h-36 overflow-hidden bg-navy/5">
+            <div className="relative h-28 sm:h-36 overflow-hidden bg-navy/5">
               {attr.image ? (
                 <Image
                   src={attr.image}
@@ -110,8 +110,8 @@ export default function AttractionsGrid({ city }: { city: string }) {
               </div>
             </div>
 
-            <div className="p-4">
-              <h4 className="font-serif text-sm font-bold text-navy mb-1 line-clamp-1">
+            <div className="p-3 sm:p-4">
+              <h4 className="font-serif text-xs sm:text-sm font-bold text-navy mb-1 line-clamp-1">
                 {attr.name}
               </h4>
               {attr.description && (

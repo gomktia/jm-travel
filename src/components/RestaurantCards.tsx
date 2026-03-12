@@ -55,10 +55,10 @@ export default function RestaurantCards({ city }: { city: string }) {
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: i * 0.08 }}
-          className="bg-white rounded-xl p-5 border border-navy/5 hover:shadow-md transition-shadow"
+          className="bg-offwhite rounded-xl p-4 sm:p-5 border border-navy/8 hover:shadow-md hover:border-gold/20 transition-all duration-300"
         >
-          <div className="flex items-start justify-between mb-2">
-            <h4 className="font-serif text-base font-bold text-navy">{rest.name}</h4>
+          <div className="flex items-start justify-between mb-2 gap-2">
+            <h4 className="font-serif text-sm sm:text-base font-bold text-navy truncate">{rest.name}</h4>
             <div className="flex items-center gap-1 px-2 py-0.5 bg-gold/10 rounded-full shrink-0">
               <Star className="w-3 h-3 text-gold fill-gold" />
               <span className="text-xs font-medium text-gold">{rest.rating}</span>

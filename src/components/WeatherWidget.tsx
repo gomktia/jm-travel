@@ -53,22 +53,22 @@ export default function WeatherWidget({ lat, lon }: { lat: number; lon: number }
     <motion.div
       initial={{ opacity: 0, scale: 0.95 }}
       animate={{ opacity: 1, scale: 1 }}
-      className="bg-gradient-to-br from-navy/5 to-gold/5 rounded-2xl p-5 border border-navy/5"
+      className="bg-gradient-to-br from-offwhite to-gold/5 rounded-2xl p-4 sm:p-5 border border-navy/8"
     >
-      <p className="text-xs font-medium text-navy/40 uppercase tracking-wider mb-3">{l.title}</p>
+      <p className="text-[10px] sm:text-xs font-medium text-navy/40 uppercase tracking-wider mb-2 sm:mb-3">{l.title}</p>
 
-      <div className="flex items-center gap-4">
-        <span className="text-4xl">{weather.emoji}</span>
+      <div className="flex items-center gap-3 sm:gap-4">
+        <span className="text-3xl sm:text-4xl">{weather.emoji}</span>
         <div>
           <div className="flex items-baseline gap-1">
-            <span className="text-3xl font-bold text-navy">{weather.temperature}</span>
-            <span className="text-lg text-navy/50">°C</span>
+            <span className="text-2xl sm:text-3xl font-bold text-navy">{weather.temperature}</span>
+            <span className="text-base sm:text-lg text-navy/50">°C</span>
           </div>
           <p className="text-sm text-navy/60">{weather.condition[locale] || weather.condition.pt}</p>
         </div>
       </div>
 
-      <div className="flex gap-4 mt-4 pt-3 border-t border-navy/5">
+      <div className="flex flex-wrap gap-3 sm:gap-4 mt-3 sm:mt-4 pt-3 border-t border-navy/5">
         <div className="flex items-center gap-1.5 text-xs text-navy/50">
           <Droplets className="w-3.5 h-3.5 text-blue-400" />
           <span>{l.humidity}: {weather.humidity}%</span>
