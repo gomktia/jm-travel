@@ -89,7 +89,7 @@ export default function DestinationDetail({
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: 40 }}
         transition={{ type: "spring", damping: 25 }}
-        className="max-w-5xl mx-auto my-8 bg-offwhite rounded-2xl overflow-hidden shadow-2xl"
+        className="max-w-5xl mx-auto my-8 bg-white rounded-2xl overflow-hidden shadow-2xl"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header com imagem hero */}
